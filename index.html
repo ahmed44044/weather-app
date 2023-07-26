@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg ">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+        <img class="" src="img/logo.png" alt="">
+        <div class="d-inline-block m-2">
+            <h6 class="mb-1 ">Weather</h6>
+            <small>tagline goes here</small>
+        </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+            <a class="nav-link nav-home active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Live cameras</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Photos</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+        
+        </div>
+    </div>
+</nav>
+    <div class="hero" style="background-image: url(img/banner.png);">
+        <div class="container">
+            <form action="#" class="find-location">
+                <input type="text" class="form-control mb-3 " placeholder="Find your location..." id="search" >
+                <input class="button" type="submit" value="find">
+                </form>
+        </div>
+    </div>
+
+<div class="forecast-table">
+    <div class="container">
+        <div class="row forecast-container" id="forecast">
+            
+        </div>
+    </div>
+</div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8  p-5 ">
+                    <form action="#" class="subscribe-form">
+                    <input type="email" class="form-control mb-3 " placeholder="Enter your email to subscribe..." id="email" >
+                    <input class="button" type="submit" value="subscribe">
+                    </form>
+                </div>
+                <div class="col-lg-3 mb-3  d-flex align-items-center justify-content-around">
+                    <div class="footer-icons   ">
+                        <i class="fab fa-facebook-f"></i>
+                    </div>
+                    <div class="footer-icons   ">
+                        <i class="fab fa-facebook-messenger"></i>
+                    </div>
+                    <div class="footer-icons    ">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <div class="footer-icons ">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+            <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+            <h6>made by me@2022</h6>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
